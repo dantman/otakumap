@@ -1,0 +1,14 @@
+{
+  "name": "otakumap",
+  "version": "0.0.0",
+  "authors": [
+    "Daniel Friesen <daniel@nadir-seen-fire.com>"
+  ],
+  "dependencies": {
+    "lodash": "~2.4.1",
+    "jquery": "~2.1.0",
+    "font-awesome": "~4.0.3",
+    "papa-parse": "~2.0.7"
+  },
+  "private": true
+}
