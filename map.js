@@ -1,4 +1,6 @@
 (function($, _) {
+	"use strict";
+
 	$(function() {
 		var map = L.map('map').setView([40.8434986, -98.4290106], 5);
 
@@ -53,10 +55,10 @@
 
 				var color =
 					con.attendance > 20000 ? '#00C8FF' :
-					con.attendance > 15000 ? '#1C8BFF':
-					con.attendance > 10000 ? '#00FFAC':
-					con.attendance > 6000 ? '#00FF3D':
-					con.attendance > 1000 ? '#FF00A8':
+					con.attendance > 15000 ? '#1C8BFF' :
+					con.attendance > 10000 ? '#00FFAC' :
+					con.attendance > 6000 ? '#00FF3D' :
+					con.attendance > 1000 ? '#FF00A8' :
 					'#EF0100';
 
 				L.circleMarker(con.latlon, {
